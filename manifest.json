@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.second-state.vibebuddy",
+  "name": "Vibe Buddy",
+  "version": "0.1.0",
+  "author": "Second State",
+  "license": "GPL-3.0-or-later",
+  "description": "The Vibe Buddy box in your bar: whether it's online, its mode, today's stats and its volume.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Vibe Buddy",
+    "description": "The buddy's face; click for the box's status, today's stats and volume.",
+    "category": "AI",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
