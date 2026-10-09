@@ -36,11 +36,9 @@ Omarchy, Vibe Buddy's `install.sh` adds and enables the plugin for you.
 - Scripts and tests can read the plugin's state:
   `qs ipc -p "$OMARCHY_PATH/shell" call vibebuddy state`
 
-If the daemon isn't running, the panel says so. Start it with:
-
-```bash
-systemctl --user start vibebuddyd
-```
+If the daemon isn't running, the panel says so. It runs as a user service; Vibe Buddy's
+[Linux instructions](https://github.com/second-state/vibebuddy#linux-experimental) say how to
+start it.
 
 ## Remove
 
