@@ -5,7 +5,7 @@ import Quickshell.Io
 import qs.Commons
 import qs.Ui
 
-// The Vibe Buddy box in the bar. A client of vibebuddyd's local HTTP API, like the
+// The VibeBuddy box in the bar. A client of vibebuddyd's local HTTP API, like the
 // desktop app: it shows what the tray menu shows (the box, its mode, today's stats)
 // plus the volume, and never anything about the agents. Those are told by the box.
 Panel {
@@ -127,7 +127,7 @@ Panel {
     id: button
     anchors.fill: parent
     bar: root.bar
-    tooltipText: "Vibe Buddy: " + root.deviceLine
+    tooltipText: "VibeBuddy: " + root.deviceLine
     iconComponent: Component {
       Face {
         eyesClosed: !root.online
@@ -167,7 +167,7 @@ Panel {
 
         PanelHero {
           width: parent.width
-          title: "Vibe Buddy"
+          title: "VibeBuddy"
           meta: root.deviceLine
           detail: root.modeLine
           foreground: root.foreground
@@ -186,7 +186,7 @@ Panel {
           textFormat: Text.PlainText
           visible: root.status === null
           width: parent.width
-          text: "Start the vibebuddyd service, or install Vibe Buddy first. The plugin's README says how."
+          text: "Start the vibebuddyd service, or install VibeBuddy first. The plugin's README says how."
           color: root.dim
           font.family: root.fontFamily
           font.pixelSize: Style.font.bodySmall

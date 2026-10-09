@@ -1,8 +1,8 @@
-# Vibe Buddy — Omarchy shell plugin
+# VibeBuddy — Omarchy shell plugin
 
-![Vibe Buddy panel](preview.png)
+![VibeBuddy panel](preview.png)
 
-The [Vibe Buddy](https://github.com/second-state/vibebuddy) box in your Omarchy bar. The
+The [VibeBuddy](https://github.com/second-state/vibebuddy) box in your Omarchy bar. The
 icon is the buddy's face; its eyes close and it dims when the box or the daemon is gone.
 Click it for a panel with:
 
@@ -17,7 +17,7 @@ It never shows what your agents are doing: that's the box's job.
 
 ## Install
 
-Install Vibe Buddy first; this plugin is only a front end for its daemon, `vibebuddyd`.
+Install VibeBuddy first; this plugin is only a front end for its daemon, `vibebuddyd`.
 See [Linux](https://github.com/second-state/vibebuddy#linux-experimental) in its README
 (`install.sh`, or the pacman package on Arch and Omarchy). Then:
 
@@ -25,9 +25,9 @@ See [Linux](https://github.com/second-state/vibebuddy#linux-experimental) in its
 omarchy plugin add https://github.com/second-state/omarchy-vibebuddy-plugin --enable
 ```
 
-While the plugin is in the bar, the Vibe Buddy app (newer than 0.4.0) leaves out its own
+While the plugin is in the bar, the VibeBuddy app (newer than 0.4.0) leaves out its own
 tray icon, so the face shows once; disable the plugin and the tray icon comes back. On
-Omarchy, Vibe Buddy's `install.sh` adds and enables the plugin for you.
+Omarchy, VibeBuddy's `install.sh` adds and enables the plugin for you.
 
 ## Use
 
@@ -36,7 +36,7 @@ Omarchy, Vibe Buddy's `install.sh` adds and enables the plugin for you.
 - Scripts and tests can read the plugin's state:
   `qs ipc -p "$OMARCHY_PATH/shell" call vibebuddy state`
 
-If the daemon isn't running, the panel says so. It runs as a user service; Vibe Buddy's
+If the daemon isn't running, the panel says so. It runs as a user service; VibeBuddy's
 [Linux instructions](https://github.com/second-state/vibebuddy#linux-experimental) say how to
 start it.
 
@@ -46,7 +46,7 @@ start it.
 omarchy plugin remove io.github.second-state.vibebuddy
 ```
 
-This removes only the bar widget. Vibe Buddy itself, its daemon and its hooks are untouched.
+This removes only the bar widget. VibeBuddy itself, its daemon and its hooks are untouched.
 
 ## Dependencies and privileges
 
@@ -62,4 +62,4 @@ This removes only the bar widget. Vibe Buddy itself, its daemon and its hooks ar
 omarchy plugin validate .
 ```
 
-License: GPL-3.0-or-later, like Vibe Buddy.
+License: GPL-3.0-or-later, like VibeBuddy.
