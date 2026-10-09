@@ -186,7 +186,7 @@ Panel {
           textFormat: Text.PlainText
           visible: root.status === null
           width: parent.width
-          text: "Start it with  systemctl --user start vibebuddyd, or install Vibe Buddy first (see the plugin's README)."
+          text: "Start the vibebuddyd service, or install Vibe Buddy first. The plugin's README says how."
           color: root.dim
           font.family: root.fontFamily
           font.pixelSize: Style.font.bodySmall
