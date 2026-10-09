@@ -1,5 +1,7 @@
 # Vibe Buddy — Omarchy shell plugin
 
+![Vibe Buddy panel](preview.png)
+
 The [Vibe Buddy](https://github.com/second-state/vibebuddy) box in your Omarchy bar. The
 icon is the buddy's face; its eyes close and it dims when the box or the daemon is gone.
 Click it for a panel with:
